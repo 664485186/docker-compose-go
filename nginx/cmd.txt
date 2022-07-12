@@ -1,0 +1,13 @@
+docker run  --name myNginx -d -p 8089:80 -v /nginx/html:/usr/share/nginx/html -v /nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /nginx/conf.d:/etc/nginx/conf.d  -v /nginx/logs:/var/log/nginx nginx
+
+
+docker run  --name myNginx -d -p 8089:80 
+-v /nginx/html:/usr/share/nginx/html 
+-v /nginx/conf/nginx.conf:/etc/nginx/nginx.conf 
+-v /nginx/conf.d:/etc/nginx/conf.d  
+-v /nginx/logs:/var/log/nginx nginx
+
+
+
+docker run  --name myNginx -d -p 8089:80 -v C:/Users/Administrator/Desktop/nginx/html:/usr/share/nginx/html -v C:/Users/Administrator/Desktop/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v C:/Users/Administrator/Desktop/nginx/conf.d:/etc/nginx/conf.d  -v C:/Users/Administrator/Desktop/nginx/logs:/var/log/nginx nginx
+
