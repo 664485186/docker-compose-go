@@ -15,3 +15,5 @@
 > redis/manage
 
 ### 自行修改本地映射目录 在.env
+
+> docker-compose up -d
